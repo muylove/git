@@ -1,1 +1,54 @@
-# Add project-specific ignore rules here.
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build and coverage output
+dist/
+build/
+out/
+coverage/
+
+# Caches
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.turbo/
+.vite/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Package artifacts
+*.tgz
+*.zip
+*.tar
+*.tar.gz
+
+# Temporary files
+tmp/
+temp/
